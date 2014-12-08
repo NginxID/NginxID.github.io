@@ -43,6 +43,10 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+
+    /*add*/
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -154,8 +158,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1080px - (#{$spacing-unit} * 2));
+    max-width:         calc(1080px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

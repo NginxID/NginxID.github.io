@@ -1,0 +1,11 @@
+table.news .date {
+text-align: right;
+padding-right: 0.5em;
+white-space: nowrap;
+}
+table.news td {
+vertical-align: baseline;
+}
+table.news p {
+margin-top: 0;
+}

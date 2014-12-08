@@ -2,13 +2,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>e-mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>grup facebook: <a href="//fb.com/groups/nginx.banget.indonesia/" target="_blank">Join Now!</a></li>
+          <li>subscribe: <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
         </ul>
       </div>
 
@@ -46,9 +45,11 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+        <p class="text">{{ site.description }}, view on <a href="https://github.com/NginxID/NginxID.github.io" target="_blank">GitHub</a></p>
       </div>
     </div>
+
+    <h3 class="footer-heading"><!-- {{ site.title }} -->&copy; 2014 Developer Nginx Indonesia.</h3>
 
   </div>
 
