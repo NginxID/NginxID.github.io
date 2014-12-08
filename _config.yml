@@ -3,6 +3,8 @@ title: Nginx Indonesia
 email: mail@nginxid.com
 description: > # this means to ignore newlines until "baseurl:"
   Nginx Indonesia adalah tempat untuk berkontribusi para pengguna Nginx yang ada di Indonesia. Sumber kode yang ada di Nginx Indonesia adalah Open Source
+keywords: nginx, nginx id, nginx indonesia
+author: NginxID
 baseurl: ""
 url: "http://nginxid.com"
 twitter_username: NginxID

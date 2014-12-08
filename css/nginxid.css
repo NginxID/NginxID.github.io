@@ -9,3 +9,6 @@ vertical-align: baseline;
 table.news p {
 margin-top: 0;
 }
+ul.ularchive li {
+font-size: 23px;
+}
